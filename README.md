@@ -3,12 +3,15 @@ The method is designed to reconstruct high-spatial and high-temporal resolution 
 The model has three main components:
 
 1. Image pyramid feature decoupling
+
 Gaussian-Laplacian pyramid decomposition is used to separate high-frequency texture features and sensor bias before deep feature mapping.
 
 2. Wavelet-Transformer mapping
+
 Discrete wavelet transform, frequency attention, and Transformer blocks are used to enhance high-frequency detail preservation and long-range spatiotemporal dependency modeling.
 
 3. Object-aware spatial regularization
+
 Object masks are used to build adaptive spatial constraints, which help reduce cross-boundary spectral confusion and local over-smoothing in heterogeneous regions.
 
 If you find this repository useful, please cite our paper after publication.
